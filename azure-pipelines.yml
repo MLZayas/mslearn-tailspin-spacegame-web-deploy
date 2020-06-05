@@ -103,7 +103,6 @@ stages:
               appType: 'webApp'
               appName: 'tailspin-space-game-web-dev-955'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
-<<<<<<< HEAD
               deploymentMethod: 'auto'
 
 - stage: 'Test'
@@ -130,6 +129,4 @@ stages:
               appType: 'webApp'
               appName: 'tailspin-space-game-web-test-955'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
-=======
               deploymentMethod: 'auto'
->>>>>>> e1349d8d83570ad51fedabcde4959202294d108c
